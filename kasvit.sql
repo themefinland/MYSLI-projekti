@@ -4,7 +4,7 @@ lat_nimi VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_swedish_ci,
 kut_nimi VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_swedish_ci,
 loytaja INTEGER,
 paikka INTEGER,
-uhanalaisuus INTEGER,
+uhanalaisuus VARCHAR(30),
 ulkonako INTEGER,
 PRIMARY KEY(ID),
 FOREIGN KEY(loytaja, paikka, ulkonako)
@@ -34,19 +34,19 @@ PRIMARY KEY(ID)
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(1,"Ephedra alata","","Decne." , 1, 0, 1);
+VALUES(1,"Ephedra alata","","Decne." , 1, "Least Concern", 1);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra altissima, Desf. - High-climbing Jointfir,1,2," ",1);
+(Ephedra altissima, Desf. - High-climbing Jointfir,1,2,"Least Concern",1);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra americana, Humb. & Bonpl., );
+(Ephedra americana, Humb. & Bonpl.,NULL, 3, "Least Concern",1 );
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra antisyphilitica, Berl. ex C.A. Mey. - Clapweed);
+(Ephedra antisyphilitica, Berl. ex C.A. Mey. - Clapweed,2,4,"Least Concern",10 );
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -278,16 +278,16 @@ INSERT INTO
 
 
 
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (1,"René Louiche Desfontaines", "Ranska", 1799);
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (2,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (3,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (4,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (5,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (6,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (7,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (8,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (9,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (10,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (1,"René Louiche Desfontaines", "Ranska");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (2,"Jean-Louis Berlandier", "Ranska");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (3,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (4,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (5,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (6,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (7,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (8,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (9,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (10,"", "");
 
 
 INSERT INTO ulkonako(ID, vari) VALUES(1,'vihreä');
@@ -297,15 +297,15 @@ INSERT INTO ulkonako(ID, vari) VALUES(4,'tumman-vihreä');
 INSERT INTO ulkonako(ID, vari) VALUES(5,'vaalean-vihreä');
 INSERT INTO ulkonako(ID, vari) VALUES(6,'tumman-ruskea');
 INSERT INTO ulkonako(ID, vari) VALUES(7,'vaalean-ruskea');
-INSERT INTO ulkonako(ID, vari) VALUES(7,'valkoinen');
-INSERT INTO ulkonako(ID, vari) VALUES(7,'musta');
-
+INSERT INTO ulkonako(ID, vari) VALUES(8,'valkoinen');
+INSERT INTO ulkonako(ID, vari) VALUES(9,'musta');
+INSERT INTO ulkonako(ID, vari) VALUES(10,'keltainen');
 
 
 INSERT INTO paikka (ID, manner, maa) VALUES (1, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (2, "Afrikka", "Sahara");
-INSERT INTO paikka (ID, manner, maa) VALUES (3, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (4, "", "");
+INSERT INTO paikka (ID, manner, maa) VALUES (3, "Etelä-Amerikka", "Ecuador");
+INSERT INTO paikka (ID, manner, maa) VALUES (4, "Pohjois-Amerikka", "USA");
 INSERT INTO paikka (ID, manner, maa) VALUES (5, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (6, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (7, "", "");
