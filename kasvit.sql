@@ -39,7 +39,7 @@ VALUES(1,"Ephedra alata","","Decne." , 1, 0, 1);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra altissima, Desf. - High-climbing Jointfir,);
+(Ephedra altissima, Desf. - High-climbing Jointfir,1,2,NULL,1);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -279,7 +279,7 @@ INSERT INTO
 
 
 
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (1,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (1,"René Louiche Desfontaines", "Ranska", 1799);
 INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (2,"", "", 0);
 INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (3,"", "", 0);
 INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (4,"", "", 0);
@@ -304,7 +304,7 @@ INSERT INTO ulkonako(ID, vari) VALUES(7,'musta');
 
 
 INSERT INTO paikka (ID, manner, maa) VALUES (1, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (2, "", "");
+INSERT INTO paikka (ID, manner, maa) VALUES (2, "Afrikka", "Sahara");
 INSERT INTO paikka (ID, manner, maa) VALUES (3, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (4, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (5, "", "");
