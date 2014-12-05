@@ -14,7 +14,6 @@ CREATE TABLE loytaja(
 ID VARCHAR(15) CHARACTER SET utf8 COLLATE utf8_swedish_ci,
 nimi VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_swedish_ci,
 kansallisuus VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_swedish_ci,
-vuosi INTEGER,
 PRIMARY KEY(ID)
 );
 
@@ -39,11 +38,11 @@ VALUES(1,"Ephedra alata","","Decne." , 1, 0, 1);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra altissima, Desf. - High-climbing Jointfir,1,2,NULL,1);
+(Ephedra altissima, Desf. - High-climbing Jointfir,1,2," ",1);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra americana, Humb. & Bonpl.,);
+(Ephedra americana, Humb. & Bonpl., );
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -279,16 +278,16 @@ INSERT INTO
 
 
 
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (1,"René Louiche Desfontaines", "Ranska", 1799);
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (2,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (3,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (4,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (5,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (6,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (7,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (8,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (9,"", "", 0);
-INSERT INTO loytaja  (ID, nimi, kansallisuus, vuosi) VALUES (10,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (1,"René Louiche Desfontaines", "Ranska", 1799);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (2,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (3,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (4,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (5,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (6,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (7,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (8,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (9,"", "", 0);
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (10,"", "", 0);
 
 
 INSERT INTO ulkonako(ID, vari) VALUES(1,'vihreä');
