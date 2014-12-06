@@ -88,15 +88,15 @@ VALUES(13, 'Ephedra cutleri', "Cutler's Jointfir",4,4,"Least Consern",1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(14,Ephedra dawuensis, Y. Yang);
+VALUES(14,'Ephedra dawuensis', 'Y. Yang',NULL, 4,"Least Concern",1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(15,'Ephedra distachya', 'L. - Jointfir');
+VALUES(15,'Ephedra distachya', 'L. - Jointfir', 10,4,"Least Consern", 11);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(16,'Ephedra equisetina', 'Bunge - Ma Huang');
+VALUES(16,'Ephedra equisetina', 'Bunge - Ma Huang', 9,);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -108,63 +108,63 @@ VALUES(18,'Ephedra fasciculata', 'A. Nels. - Arizona Jointfir',);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(19,Ephedra fedtschenkoae, Paulsen);
+VALUES(19,'Ephedra fedtschenkoae', 'Paulsen');
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(20,Ephedra foeminea, Forssk.);
+VALUES(20,'Ephedra foeminea', 'Forssk.');
+
+INSERT INTO
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(21,'Ephedra foliata', 'Boiss. ex C. A. Mey.');
+
+INSERT INTO
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(22,'Ephedra fragilis', 'Desf.');
+
+INSERT INTO
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(23,'Ephedra frustillata', 'Miers');
+
+INSERT INTO
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(24,'Ephedra funerea', 'Coville & Morton - Death Valley Jointfir');
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(21,Ephedra foliata, Boiss. ex C. A. Mey.);
+VALUES(25,Ephedra gerardiana, Wallich ex Stapf - Gerard Jointfir);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(22,Ephedra fragilis, Desf.);
+VALUES(26,Ephedra gerardiana, - Gerard Jointfir);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(23,Ephedra frustillata, Miers);
+VALUES(27,Ephedra helvetica, C.A. Mey.);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(24,Ephedra funerea, Coville & Morton - Death Valley Jointfir);
+VALUES(28,Ephedra intermedia, Schrenk & C. A. Mey.);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(25,Ephedra gerardiana, Wallich ex Stapf - Gerard Jointfir);
+VALUES(29,Ephedra likiangensis, Florin);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(26,Ephedra gerardiana, - Gerard Jointfir);
+VALUES(30,Ephedra lomatolepis, Schrenk);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(27,Ephedra helvetica, C.A. Mey.);
+VALUES(31,Ephedra macedonica, Kos.);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(28,Ephedra intermedia, Schrenk & C. A. Mey.);
+VALUES(32,Ephedra major, "Host");
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(29,Ephedra likiangensis, Florin);
-
-INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(30,Ephedra lomatolepis, Schrenk);
-
-INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(31,Ephedra macedonica, Kos.);
-
-INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(32,Ephedra major, "Host");
-
-INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(33,Ephedra minuta, Florin);
+VALUES(33,Ephedra minuta, Florin);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -288,8 +288,8 @@ INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (5,"Robert Hibbs Peebles", 
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (6,"", "");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (7,"", "");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (8,"", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (9,"", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (10,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (9,"Alexander Andrejewitsch von Bunge", "Saksa");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (10,"Nagayoshi Nagai", "Japani");
 
 
 INSERT INTO ulkonako(ID, vari) VALUES(1,'vihreä');
