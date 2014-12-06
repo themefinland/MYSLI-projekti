@@ -124,11 +124,11 @@ VALUES(22,'Ephedra fragilis', 'Desf.',1,11,'Least Concern',1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(23,'Ephedra frustillata', 'Miers');
+VALUES(23,'Ephedra frustillata', 'Miers',NULL,12,'Least Consern',1 );
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(24,'Ephedra funerea', 'Coville & Morton - Death Valley Jointfir');
+VALUES(24,'Ephedra funerea', 'Coville & Morton - Death Valley Jointfir',NULL,4,'Least Consern',1);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -316,7 +316,7 @@ INSERT INTO paikka (ID, manner, maa) VALUES (8, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (9, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (10, "Aasia", "Kiina");
 INSERT INTO paikka (ID, manner, maa) VALUES (11, "Euraasia", "Italia");
-INSERT INTO paikka (ID, manner, maa) VALUES (12, "", "");
+INSERT INTO paikka (ID, manner, maa) VALUES (12, "Etelä-Amerikka", "Argentiina");
 INSERT INTO paikka (ID, manner, maa) VALUES (13, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (14, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (15, "", "");
