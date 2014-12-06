@@ -7,7 +7,9 @@ paikka INTEGER,
 uhanalaisuus VARCHAR(30),
 ulkonako INTEGER,
 PRIMARY KEY(ID),
-FOREIGN KEY(loytaja, paikka, ulkonako)
+FOREIGN KEY(loytaja) REFERENCES loytaja(id),
+FOREIGN KEY(ulkonako) REFERENCES ulkonako(id),
+FOREIGN KEY(paikka) REFERENCES paikka(id)
 );
 
 CREATE TABLE loytaja(
@@ -33,36 +35,36 @@ PRIMARY KEY(ID)
  
 
 INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
 VALUES(1,"Ephedra alata","","Decne." , 1, "Least Concern", 1);
 
 INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra altissima, Desf. - High-climbing Jointfir,1,2,"Least Concern",1);
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(2,'Ephedra altissima', 'Desf. - High-climbing Jointfir',1,2,"Least Concern",1);
+
+INSERT INTO
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(3,'Ephedra americana', 'Humb. & Bonpl.',NULL, 3, "Least Concern",1 );
+
+INSERT INTO
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(4,'Ephedra antisyphilitica', 'Berl. ex C.A. Mey. - Clapweed',2,4,"Least Concern",10 );
+
+INSERT INTO
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(5,'Ephedra aphylla', 'Forssk.',NULL,1,"Least Concern",11);
+
+INSERT INTO
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(6'Ephedra aspera', 'Engelm. ex S. Wats. - Rough Jointfir',3 ,4,'Least Consern' ,10);
+
+INSERT INTO
+sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
+VALUES(7'Ephedra aurantiaca', 'Takht. & Pachom.', 4, NULL,NULL,NULL,NULL);
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra americana, Humb. & Bonpl.,NULL, 3, "Least Concern",1 );
-
-INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra antisyphilitica, Berl. ex C.A. Mey. - Clapweed,2,4,"Least Concern",10 );
-
-INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra aphylla, Forssk.);
-
-INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra aspera, Engelm. ex S. Wats. - Rough Jointfir);
-
-INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra aurantiaca, Takht. & Pachom.);
-
-INSERT INTO
-'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-(Ephedra breana, Phil.);
+(8,'Ephedra breana', 'Phil.',NULL, , "Least Consern", );
 
 INSERT INTO
 'sienilajike'(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -280,8 +282,8 @@ INSERT INTO
 
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (1,"René Louiche Desfontaines", "Ranska");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (2,"Jean-Louis Berlandier", "Ranska");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (3,"", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (4,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (3,"Sereno Watson", "Yhdysvallat");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (4," M.G. Pachomova", "Venäjä");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (5,"", "");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (6,"", "");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (7,"", "");
@@ -300,13 +302,13 @@ INSERT INTO ulkonako(ID, vari) VALUES(7,'vaalean-ruskea');
 INSERT INTO ulkonako(ID, vari) VALUES(8,'valkoinen');
 INSERT INTO ulkonako(ID, vari) VALUES(9,'musta');
 INSERT INTO ulkonako(ID, vari) VALUES(10,'keltainen');
+INSERT INTO ulkonako(ID, vari) VALUES(11,'punainen');
 
-
-INSERT INTO paikka (ID, manner, maa) VALUES (1, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (2, "Afrikka", "Sahara");
+INSERT INTO paikka (ID, manner, maa) VALUES (1, "Euraasia", "Israel");
+INSERT INTO paikka (ID, manner, maa) VALUES (2, "Afrikka", "Saharan autiomaa");
 INSERT INTO paikka (ID, manner, maa) VALUES (3, "Etelä-Amerikka", "Ecuador");
 INSERT INTO paikka (ID, manner, maa) VALUES (4, "Pohjois-Amerikka", "USA");
-INSERT INTO paikka (ID, manner, maa) VALUES (5, "", "");
+INSERT INTO paikka (ID, manner, maa) VALUES (5, "Etelä-Amerikka", "Ecuador");
 INSERT INTO paikka (ID, manner, maa) VALUES (6, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (7, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (8, "", "");
