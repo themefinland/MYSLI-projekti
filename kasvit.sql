@@ -96,31 +96,31 @@ VALUES(15,'Ephedra distachya', 'L. - Jointfir', 10,4,"Least Consern", 11);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(16,'Ephedra equisetina', 'Bunge - Ma Huang', 9,);
+VALUES(16,'Ephedra equisetina', 'Bunge - Ma Huang', 9,10,'Least Concern',1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(17,'Ephedra equisetina',  'Ma Huang');
+VALUES(17,'Ephedra equisetina',  'Ma Huang',9,10,'Least Consern',1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(18,'Ephedra fasciculata', 'A. Nels. - Arizona Jointfir',);
+VALUES(18,'Ephedra fasciculata', 'A. Nels. - Arizona Jointfir',NULL, 4,'Least Consern',1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(19,'Ephedra fedtschenkoae', 'Paulsen');
+VALUES(19,'Ephedra fedtschenkoae', 'Paulsen', NULL,NULL,NULL,1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(20,'Ephedra foeminea', 'Forssk.');
+VALUES(20,'Ephedra foeminea', 'Forssk.',8,NULL,NULL,8);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(21,'Ephedra foliata', 'Boiss. ex C. A. Mey.');
+VALUES(21,'Ephedra foliata', 'Boiss. ex C. A. Mey.',11,10,'Least Concern',1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(22,'Ephedra fragilis', 'Desf.');
+VALUES(22,'Ephedra fragilis', 'Desf.',1,11,'Least Concern',1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -287,9 +287,10 @@ INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (4," M.G. Pachomova", "Ven�
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (5,"Robert Hibbs Peebles", "Yhdysvallat");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (6,"", "");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (7,"", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (8,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (8,"Pehr Forsskål ", "Ruotsi");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (9,"Alexander Andrejewitsch von Bunge", "Saksa");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (10,"Nagayoshi Nagai", "Japani");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (11,"Pierre Edmond Boissier", "Ranska");
 
 
 INSERT INTO ulkonako(ID, vari) VALUES(1,'vihreä');
@@ -313,8 +314,8 @@ INSERT INTO paikka (ID, manner, maa) VALUES (6, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (7, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (8, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (9, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (10, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (11, "", "");
+INSERT INTO paikka (ID, manner, maa) VALUES (10, "Aasia", "Kiina");
+INSERT INTO paikka (ID, manner, maa) VALUES (11, "Euraasia", "Italia");
 INSERT INTO paikka (ID, manner, maa) VALUES (12, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (13, "", "");
 INSERT INTO paikka (ID, manner, maa) VALUES (14, "", "");
