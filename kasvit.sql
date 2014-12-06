@@ -36,7 +36,7 @@ PRIMARY KEY(ID)
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(1,"Ephedra alata","","Decne." , 1, "Least Concern", 1);
+VALUES(1,"Ephedra alata","Decne." , 1,NULL, "Least Concern", 1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
