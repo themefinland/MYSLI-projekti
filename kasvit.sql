@@ -32,7 +32,7 @@ maa VARCHAR(25) CHARACTER SET utf8 COLLATE utf8_swedish_ci,
 PRIMARY KEY(ID)
 );
 
- 
+
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -56,7 +56,7 @@ VALUES(5,'Ephedra aphylla', 'Forssk.',NULL,1,"Least Concern",11);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES(6'Ephedra aspera', 'Engelm. ex S. Wats. - Rough Jointfir',3 ,4,'Least Concern' ,10);
+VALUES(6,'Ephedra aspera', 'Engelm. ex S. Wats. - Rough Jointfir',3 ,4,'Least Concern' ,10);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -244,7 +244,7 @@ VALUES("127", "Gnetum africanum", "African Jointfir- Wild spinach", 122, 111, "n
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES("128", "Gnetum buchholzianum", "Jointfir", 123, 112, "near threatened",  6;
+VALUES("128", "Gnetum buchholzianum", "Jointfir", 123, 112, "near threatened",  6);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -252,7 +252,7 @@ VALUES("129", "Gnetum camporum","NaN", 124, 113, "least concern", 1);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
-VALUES("130","Gnetum gnemon", "Buko", 125, 114 "least concern", 5);
+VALUES("130","Gnetum gnemon", "Buko", 125, 114, "least concern", 5);
 
 INSERT INTO
 sienilajike(ID, lat_nimi, kut_nimi, loytaja, paikka, uhanalaisuus, ulkonako)
@@ -281,8 +281,8 @@ INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (2,"Jean-Louis Berlandier",
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (3,"Sereno Watson", "Yhdysvallat");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (4," M.G. Pachomova", "Venäjä");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (5,"Robert Hibbs Peebles", "Yhdysvallat");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (6,"", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (7,"", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (6,"Harz", "Haralla");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (7,"Holla", "Halo");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (8,"Pehr Forsskål ", "Ruotsi");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (9,"Alexander Andrejewitsch von Bunge", "Saksa");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (10,"Nagayoshi Nagai", "Japani");
@@ -291,33 +291,33 @@ INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (11,"Pierre Edmond Boissier
 
 
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (100,"Wallich ex Stapf ", "Saksa");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (101,"C.A. Mey.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (102,"Schrenk & C. A. Mey.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (103,"Florin", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (101,"C.A. Mey.", "Ranska");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (102,"Schrenk & C. A. Mey.", "Pohjois-Amerikka");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (103,"Florin", "Ranska");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (104,"Schrenk", "Saksa");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (105,"Kos.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (106,"Host", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (107,"(Fisch. & C. A. Mey.) K. Richt.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (109,"S. Wats.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (110,"Boiss.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (111," Engelm. ex S. Wats.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (112,"Fisch. & C. A. Mey.", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (105,"Kos.", "Saksa");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (106,"Host", "Ranska");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (107,"(Fisch. & C. A. Mey.) K. Richt.", "Saksa");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (109,"S. Wats.", "Italia");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (110,"Boiss.", "Saksa");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (111," Engelm. ex S. Wats.", "Itävalta");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (112,"Fisch. & C. A. Mey.", "Sveitsi");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (113,"Otto Stapf", "Itävalta");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (114,"Earle J. C.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (115,"Y. Yang", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (116,"Benth.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (117,"Aitch. & Hemsl.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (118,"Chinese Ephedra.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (119,"Riedl.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (120,"Coville.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (121,"Pachom.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (122,"Welw.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (123,"Engler.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (124,"(Markgraf) D. Stevenson & T. Zanoni.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (125,"L.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (126,"Tul.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (127,"Brongn.", "");
-INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (128,"(Aubl.) Blume", "");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (114,"Earle J. C.", "Saksa");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (115,"Y. Yang", "Itävalta");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (116,"Benth.", "Ruotsi");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (117,"Aitch. & Hemsl.", "Norja");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (118,"Chinese Ephedra.", "Kiina");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (119,"Riedl.", "Saksa");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (120,"Coville.", "Ranska");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (121,"Pachom.", "Sveitsi");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (122,"Welw.", "Saksa");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (123,"Engler.", "Ranska");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (124,"(Markgraf) D. Stevenson & T. Zanoni.", "Iso-Britannia");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (125,"L.", "Iso-Britannia");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (126,"Tul.", "Saksa");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (127,"Brongn.", "Ranska");
+INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (128,"(Aubl.) Blume", "Saksa");
 INSERT INTO loytaja  (ID, nimi, kansallisuus) VALUES (129,"Fredrich Martin Josef", "Itävalta");
 
 
@@ -340,28 +340,28 @@ INSERT INTO paikka (ID, manner, maa) VALUES (2, "Afrikka", "Saharan autiomaa");
 INSERT INTO paikka (ID, manner, maa) VALUES (3, "Etelä-Amerikka", "Ecuador");
 INSERT INTO paikka (ID, manner, maa) VALUES (4, "Pohjois-Amerikka", "USA");
 INSERT INTO paikka (ID, manner, maa) VALUES (5, "Etelä-Amerikka", "Ecuador");
-INSERT INTO paikka (ID, manner, maa) VALUES (6, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (7, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (8, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (9, "", "");
+INSERT INTO paikka (ID, manner, maa) VALUES (6, "Euraasia", "Ranska");
+INSERT INTO paikka (ID, manner, maa) VALUES (7, "Euraasia", "Venäjä");
+INSERT INTO paikka (ID, manner, maa) VALUES (8, "Afrikka", "Nigeria");
+INSERT INTO paikka (ID, manner, maa) VALUES (9, "Australia", "Australia");
 INSERT INTO paikka (ID, manner, maa) VALUES (10, "Aasia", "Kiina");
 INSERT INTO paikka (ID, manner, maa) VALUES (11, "Euraasia", "Italia");
 INSERT INTO paikka (ID, manner, maa) VALUES (12, "Etelä-Amerikka", "Argentiina");
-INSERT INTO paikka (ID, manner, maa) VALUES (13, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (14, "", "");
-INSERT INTO paikka (ID, manner, maa) VALUES (15, "", "");
+INSERT INTO paikka (ID, manner, maa) VALUES (13, "Aasia", "Thaimaa");
+INSERT INTO paikka (ID, manner, maa) VALUES (14, "Aasia", "Indonesia");
+INSERT INTO paikka (ID, manner, maa) VALUES (15, "Afrikka", "Egypti");
 
 INSERT INTO paikka (ID, manner, maa) VALUES (100, "Aasia", "Kiina");
-INSERT INTO paikka (ID, manner, maa) VALUES (101, "Eurooppa", "Sveitsi");
+INSERT INTO paikka (ID, manner, maa) VALUES (101, "Euraasia", "Sveitsi");
 INSERT INTO paikka (ID, manner, maa) VALUES (102, "Aasia", "Afganistan");
 INSERT INTO paikka (ID, manner, maa) VALUES (103, "Aasia", "Kazakhstan");
-INSERT INTO paikka (ID, manner, maa) VALUES (104, "Eurooppa", "Kreikka");
-INSERT INTO paikka (ID, manner, maa) VALUES (105, "Eurooppa", "Kanarian saaret");
-INSERT INTO paikka (ID, manner, maa) VALUES (106, "Eurooppa", "Balkanin niemimaat");
+INSERT INTO paikka (ID, manner, maa) VALUES (104, "Euraasia", "Kreikka");
+INSERT INTO paikka (ID, manner, maa) VALUES (105, "Euraasia", "Kanarian saaret");
+INSERT INTO paikka (ID, manner, maa) VALUES (106, "Euraasia", "Balkanin niemimaat");
 INSERT INTO paikka (ID, manner, maa) VALUES (107, "Aasia", "Mongolia");
 INSERT INTO paikka (ID, manner, maa) VALUES (108, "Aasia", "Iraq");
 INSERT INTO paikka (ID, manner, maa) VALUES (109, "Pohjois-Amerikka", "Meksiko");
-INSERT INTO paikka (ID, manner, maa) VALUES (110, "Eurooppa", "Itävalta");
+INSERT INTO paikka (ID, manner, maa) VALUES (110, "Euraasia", "Itävalta");
 INSERT INTO paikka (ID, manner, maa) VALUES (111, "Afrikka", "Keski-Afrikan tasavalta");
 INSERT INTO paikka (ID, manner, maa) VALUES (112, "Afrikka", "Kamerun");
 INSERT INTO paikka (ID, manner, maa) VALUES (113, "Etelä-Amerikka", "Venezuela");
