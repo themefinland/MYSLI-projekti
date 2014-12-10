@@ -24,8 +24,6 @@ select * from sienilajike, loytaja where loytaja.nimi="Florin"
 Käyttäjänä haluan etsiä lajikkeita ulkonäön perusteella
 select * from sienilajike where ulkonako=5;
 
-Käyttäjänä haluan tietää lajikkeen löytäjän kansallisuuden
-
 Etsii Latinalaisen nimen ja uhanalaisuuden niiden sienilajikkeiden joiden väri on vihreä
 select lat_nimi, uhanalaisuus from sienilajike where ulkonako=1;
 
